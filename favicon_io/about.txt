@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Coiny
+- Font Author: Copyright 2015 Marcelo Magalhaes (marcelommp@gmail.com @marcelommp)
+- Font Source: http://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PXwbElSvO5Tc.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
