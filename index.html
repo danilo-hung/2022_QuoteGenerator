@@ -15,26 +15,43 @@
 </head>
 
 <body>
+
     <div class="quoteContainer" id="quoteContainter">
+        <!-- loading -->
+        <div class="" id="loader">
+            <div></div>
+            <div></div>
+        </div>
         <!-- Quote  -->
-        <div class="quoteText">
+        <div class="quoteText" id="quoteDiv">
             <i class="fa-sharp fa-solid fa-quote-left"></i>
-            <span id="quote"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti labore rem sapiente
-                nulla quos officiis veniam vitae tenetur! </span>
+            <span id="quote">Welcome to Quote Generator, click 'new quote' button to get a quote</span>
         </div>
         <!-- Auther -->
         <div class="quoteAuthor">
-            - <span id="author">Author</span>
+            <span id="author">Developer - Danilo</span>
         </div>
         <!-- Buttons -->
         <div class="btnContainer">
-            <button class="twitterBtn" id="twitter" title="Tweet Here!">
-                <i class="fa-brands fa-twitter"></i>
-            </button>
-            <button id="newQuote">
+            <div>
+                <button class="twitterBtn" id="twitter" title="Tweet Here!">
+                    <i class="fa-brands fa-twitter"></i>
+                </button>
+                <button class="metaBtn" id="meta" title="FaceBook Share">
+                    <i class="fa-brands fa-meta"></i>
+                </button>
+            </div>
+            <button class="newQuoteBtn" id="newQuote">
                 New Quote
             </button>
         </div>
+    </div>
+    <!-- loader -->
+
+
+    <div class="copyRight">
+        <i class="fa-regular fa-registered"></i>
+        <span>&nbsp Danilo 2022</span>
     </div>
 
 
